@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ng-refresher": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-refresher"
+    }
+  },
+  "defaultProject": "ng-refresher",
+  "cli": {
+    "analytics": "306e940b-3634-442f-8748-153cafe700c6"
+  }
 }
