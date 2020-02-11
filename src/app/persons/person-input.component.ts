@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 
 export class PersonInputComponent {
 
-  onCreatePerson() {
-    console.log('Created a person!');
+  onCreatePerson(personName: string) {
+    console.log('Created a person: ' + personName);
   }
 
 }
