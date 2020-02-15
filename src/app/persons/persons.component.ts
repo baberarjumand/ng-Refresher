@@ -12,6 +12,7 @@ export class PersonsComponent implements OnInit, OnDestroy {
   personList: string[];
   // private personsService: PersonsService;
   private personsListSubscription: Subscription;
+  isFetching = false;
 
   constructor(private personsService: PersonsService) {
     // this.personList = personsService.persons;
@@ -22,7 +23,9 @@ export class PersonsComponent implements OnInit, OnDestroy {
     // this.personList = this.personsService.persons;
     this.personsListSubscription = this.personsService.personsChanged.subscribe(persons => {
       this.personList = persons;
+      this.isFetching = false;
     });
+    this.isFetching = true;
     this.personsService.fetchPersons();
   }
 
