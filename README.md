@@ -1,6 +1,7 @@
 # NgRefresher
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
+This project was developed as part of 'Section 2: Angular Refresher', of the Udemy course 'Ionic 5: Build iOS, Android and Web Apps with Ionic and Angular' by Maximilian Schwarzmüller.
 
 ## Development server
 
